@@ -1,0 +1,26 @@
+{
+    "name": "biberltd/teamwork",
+    "description": "Teamwork PHP Bridge For Laravel Projects",
+    "keywords": ["teamwork", "api", "laravel", "project management"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tayfun Temizel",
+            "email": "tayfun.temizel@bodevoffice.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Biberltd\\Teamwork\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
