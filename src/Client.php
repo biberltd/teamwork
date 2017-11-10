@@ -3,9 +3,7 @@
 namespace Biberltd\Teamwork;
 
 
-class Factory
+class Client
 {
-    private $client;
-
 
 }
